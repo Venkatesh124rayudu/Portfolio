@@ -11,6 +11,7 @@ main{
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(90deg,black,gray);
+    padding-left: 70px;
 }
 header{
     height: 100px;
@@ -23,6 +24,7 @@ header nav ul{
     display: flex;
     list-style-type: none;
 }
+
 header nav ul a{
     text-decoration: none;
     padding: 0 20px;
@@ -66,6 +68,9 @@ main div h2{
     filter:drop-shadow(2px 2px 2px rgb(1,216,237));
     transition:all 0.5s;
     color: white;
+}
+main div p{
+    color:white;
 }
 main div h1:hover{
     text-shadow: 0 0 5px #fff,
